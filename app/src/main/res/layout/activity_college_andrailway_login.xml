@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".collegeAndrailwayLogin"
+    android:layout_marginBottom="20dp">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:src="@drawable/railwayrailway"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/image"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="30dp"
+        android:textColorHint="@color/dark_grey">
+
+        <AutoCompleteTextView
+
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter user name"
+            android:imeOptions="actionNext"
+            android:inputType="textNoSuggestions"
+            android:maxLines="1"
+            android:textColor="@color/sky_blue"
+            android:textColorHint="@color/dark_grey"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="30dp"
+        android:textColorHint="@color/dark_grey">
+
+        <AutoCompleteTextView
+
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter user password"
+            android:imeOptions="actionNone"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/sky_blue"
+            android:textColorHint="@color/dark_grey"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <!--<EditText-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/password"-->
+        <!--android:hint="Enter password"-->
+        <!--/>-->
+    <Button
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/buttons_style"
+        android:layout_gravity="center_horizontal"
+        android:text="Log In"
+        android:id="@+id/login"/>
+
+</LinearLayout>

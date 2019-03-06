@@ -1,0 +1,194 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Status"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                android:id="@+id/collect"
+                app:marker="@drawable/circularimage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/black"/>
+
+            <TextView
+                android:textColor="@color/red"
+                android:text="12/02"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Ready to Collect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Congratulations your pass\n is ready to collect"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                android:id="@+id/railways"
+                app:marker="@drawable/circularimage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/black"/>
+
+            <TextView
+                android:textColor="@color/red"
+                android:text="10/02"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Received by Railways"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Your details have been\n received by railways and\n is under process"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                android:id="@+id/verified"
+                app:marker="@drawable/circularimage"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/black"/>
+
+            <TextView
+                android:textColor="@color/red"
+                android:text="08/02"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Verified"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Your details have been\n verififed"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <com.vipul.hp_hp.timelineview.TimelineView
+                android:paddingLeft="30dp"
+                android:id="@+id/received"
+                app:marker="@drawable/filledcircle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:marker_size="20dp"
+                app:line_size="1dp"
+                app:line="@color/black"/>
+
+            <TextView
+                android:textColor="@color/red"
+                android:text="06/02"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:paddingLeft="20dp"
+                    android:text="Application received"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="15dp"
+                    android:paddingLeft="20dp"
+                    android:text="Your application is received,\nwe verify it shortly"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "989354960977",
+    "firebase_url": "https://railway-967c2.firebaseio.com",
+    "project_id": "railway-967c2",
+    "storage_bucket": "railway-967c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989354960977:android:3363f886ce7da296",
+        "android_client_info": {
+          "package_name": "phantomorion.com.railway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989354960977-n28ted3375pcsnn94choibpq5uef1aan.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "phantomorion.com.railway",
+            "certificate_hash": "bf4505de1e0378e58aefb8f6f8755f2bff05d10e"
+          }
+        },
+        {
+          "client_id": "989354960977-4948uomgci081tiu9vgqeug237hhoovn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcLZfic5vTo4apj8iklJwUbdJ29xusawg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989354960977-4948uomgci081tiu9vgqeug237hhoovn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="phantomorion.com.railway">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/railwaylogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/railwaylogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".noInternet" />
+        <activity android:name=".signInOptions" />
+        <activity android:name=".collegeAndrailwayLogin" />
+        <activity android:name=".studentLogin" />
+        <activity android:name=".splashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".informationForm" />
+        <activity android:name=".BottmNavigationActivity" />
+        <activity android:name=".CollegeMain" />
+        <activity android:name=".RailwayMain"></activity>
+    </application>
+
+</manifest>
